@@ -2,7 +2,6 @@ require("dotenv").config();
 const Web3 = require("web3");
 const abis = require("./abis");
 const { mainnet: addresses } = require("./addresses");
-// const { testnet: addresses } = require("./addresses");  added for testing on testnet
 const Flashloan = require("./build/contracts/FlashSwap.json");
 
 const web3 = new Web3(
@@ -13,7 +12,7 @@ const { address: admin } = web3.eth.accounts.wallet.add(
 );
 
 const flashloanBUSD = "10000";
-const flashloanWBNB = "100";
+const flashloanWBNB = "25";
 const amountInBUSD = web3.utils.toBN(web3.utils.toWei(flashloanBUSD));
 const amountInWBNB = web3.utils.toBN(web3.utils.toWei(flashloanWBNB));
 
