@@ -8,6 +8,8 @@ module.exports = function (deployer) {
     "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c", //WBNB Token  BSC's Weth
     "0xcF0feBd3f17CEf5b47b0cD257aCf6025c5BFf3b7", //aperouter
     "0x10ED43C718714eb63d5aA57B78B54704E256024E", //pancakerouter
-    "0x59e3199fc71E4c1455D585Ac714635aD0C600a0B"// Beneficiary  Needs to be filled by you with deployment address
+    "your address"// Beneficiary  Needs to be filled by you with deployment address
   );
 };
+
+
